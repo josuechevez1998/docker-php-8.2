@@ -4,7 +4,8 @@
     },
     "autoload": {
         "psr-4": {
-            "Connections\\": "src/Connections/"
+            "Core\\": "core/",
+            "App\\": "app/"
         }
     }
 }
