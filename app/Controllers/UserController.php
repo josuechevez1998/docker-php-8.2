@@ -11,4 +11,9 @@ class UserController
         $users = (new User())->all();
         view('users.index', compact('users'));
     }
+
+    public function create()
+    {
+        view('users.create');
+    }
 }
